@@ -2,7 +2,7 @@
 
 Twitch chat reader built with Svelte.
 
-[Demo](#).
+[Demo](https://twitch-chat-psi.vercel.app/?channels=).
 
 Add the "channels" parameter to read messages from those channels.
 
