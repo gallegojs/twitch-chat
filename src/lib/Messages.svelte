@@ -8,7 +8,7 @@
 
 <ul>
   {#each messages as message, i (message.id)}
-    <li animate:flip="{{ duration: 300 }}" out:scale="{{ duration: 250 }}" in:scale="{{ duration: 250 }}">
+    <li animate:flip="{{ duration: 150 }}" out:scale="{{ duration: 100 }}" in:scale="{{ duration: 100 }}">
       <b style="color: {message.color}">{message.username}:</b> {message.msg}
     </li>
   {/each}
@@ -19,6 +19,8 @@
     text-align: left;
     list-style: none;
     overflow-wrap: break-word;
+    padding: 0;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.7);
   }
   li {
     transition: opacity 0.3s ease;
