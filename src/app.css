@@ -1,9 +1,13 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
 
-  color-scheme: light dark;
+:root {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+
+  background: black;
   color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;

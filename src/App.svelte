@@ -4,7 +4,7 @@
     username: string
     color: string
     msg: string
-  }
+  };
 </script>
 
 <script lang="ts">
